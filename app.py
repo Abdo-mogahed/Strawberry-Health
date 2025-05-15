@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 # تحميل الموديل
-model = load_model(r"D:\data strawberry\final model H5\my_model.h5")
+model = load_model("my_model.h5")
 
 # شكل الإدخال المتوقع
 input_shape = model.input_shape[1:3]  # أمثلة: (72, 72)
